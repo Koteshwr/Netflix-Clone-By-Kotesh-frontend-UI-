@@ -2,7 +2,7 @@ let mainpage = document.getElementById("mainpage");
 let loginpage = document.getElementById("loginpage");
 let sbtn = document.getElementById("signinbtn");
 let plus = document.getElementById("plus");
-
+let git = document.getElementById("giticon")
 let qns = Array.from(document.getElementsByClassName("faq-card-ans"))
 let ans = Array.from(document.getElementsByClassName("faq-card-qn"))
 var qnno;
@@ -46,13 +46,9 @@ function openSigninPage() {
 }
 
 
-qn.addEventListener('click', () => {
-    if (faq.style.visibility == "hidden") {
-        faq.style.visibility = "visible";
-    }
-    else {
-        faq.style.visibility = "hidden";
-    }
+
+git.addEventListener("click",()=>{
+    window.open("https://github.com/Koteshwr/Netflix-Clone-By-Kotesh-frontend-UI-.git");
 })
 
 let main = document.getElementById("main");
