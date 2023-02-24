@@ -19,21 +19,22 @@ body {
 .logo {
     display: flex;
     position: absolute;
-    top: 19px;
-    left: 38px;
+    top: 35px;
+    left: 60px;
 }
 
 .logo img {
-    width: 90px;
+    width: 140px;
     filter: contrast(190%);
 }
+
 
 /* styling for sign in button  */
 .btn {
     cursor: pointer;
     border: none;
     background-color: rgb(224, 5, 5);
-    font-size: 11px;
+    font-size: 18px;
     border-radius: 2px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -43,8 +44,8 @@ body {
     position: absolute;
     left: 85vw;
     font-weight: 200;
-    width: 55px;
-    padding: 5px 3px;
+    width: 75px;
+    padding: 7px 5px;
 
 }
 
@@ -71,14 +72,14 @@ body {
 
 .title {
     margin-top: 12px;
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 55px;
+    font-weight: 500;
     text-align: center;
 }
 
 .title2 {
-    font-size: 17px;
-    margin-top: 10px;
+    font-size: 28px;
+    margin-top: 16px;
     font-weight: 400;
     text-align: center;
 }
@@ -86,6 +87,8 @@ body {
 
 .signinfield {
     margin-top: 15px;
+    margin-left:auto ;
+    margin-right: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -94,23 +97,25 @@ body {
     border-radius: 0px;
     width: auto;
     font-weight: 400;
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 15px 15px;
+    font-size: 25px;
 }
 
 .inputfield {
-    width: 300px;
+    width: 480px;
     font-weight: 300;
     padding: 0px 10px;
-    font-size: 10px;
+    font-size: 16px;
     border: 1px solid rgb(112, 112, 112);
     border-radius: 0px;
 }
 
 .subtitle {
+    color: white;
     margin-top: 25px;
+    text-align: center;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /* styling the login form  */
@@ -214,14 +219,14 @@ body {
 .tv-video {
     position: absolute;
     display: inline-block;
-    top: 72px;
-    right: 116px;
+    top: 97px;
+    right: 143px;
     width: 32%;
     height: auto;
 }
 .labletext {
     position: absolute;
-    font-size: 35px;
+    font-size: 50px;
     left: 85px;
     top: 100px;
     color: white;
@@ -230,9 +235,9 @@ body {
 .card-subtitle{
     width: 40vw;
     position: absolute;
-    font-size: 18px;
+    font-size: 30px;
     left: 85px;
-    top: 170px;
+    top: 200px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -241,20 +246,20 @@ body {
 
 .phnimgcard{
     position: relative;
-    top: -160px;
+    top: -200px;
     left: 30px;
 }
 .card2-lables{
     width: 40vw;
     display: inline-block;
     position: relative;    
-    left: 450px;
-    top: 50px;
+    left: 650px;
+    top: 100px;
 }
 .lablephntext{
     display: inline-block;
     text-align: left;
-    font-size: 35px;
+    font-size: 50px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -266,7 +271,7 @@ body {
 .card2-subtitle{
     width: 40vw;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     top: 75px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -276,11 +281,11 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    top: -80px;
-    left: 55px;
-    width: 220px;
-    height: 60px;
-    border: 1.7px solid rgb(112, 112, 112);
+    top: -110px;
+    left: 100px;
+    width: 300px;
+    height: 85px;
+    border: 2px solid rgb(112, 112, 112);
     border-radius: 10px;
 }
 
@@ -288,10 +293,10 @@ body {
 .innercard img{
 
         padding: 0px 10px;
-        width: 34px;
+        width: 50px;
 }
 .mvtitle{
-    font-size: 10px;
+    font-size: 18px;
     margin-top: 10px;
 }
 .mvlables{
@@ -300,7 +305,7 @@ body {
     font-family: 'Roboto', sans-serif;
     align-self: center;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
 }
 .mvsubtitle{
     color: blue;
@@ -308,7 +313,7 @@ body {
 
 .dldicon img{
     margin-left: 35px;
-    width: 35px;
+    width: 45px;
 }
 
  /* styling the card-3  */
@@ -318,9 +323,9 @@ body {
  }
  .card3-title{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     letter-spacing: 0px;
-    font-size: 35px;
+    font-size: 60px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -337,8 +342,8 @@ body {
     flex-direction: column;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-
+    font-size: 25px;
+    transform: translateY(0);
  }
 .faq-card-qn{
     cursor: pointer;
@@ -346,7 +351,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color:rgb(65, 65, 65) ;
-    padding: 15px 20px;
+    padding: 20px 25px;
     align-items: center;
 }
 .faq-card-ans{
@@ -354,7 +359,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(0);
     background-color:rgb(65, 65, 65) ;
     overflow: hidden;
 }
@@ -363,5 +367,22 @@ body {
 
 }
 #qn-card{
+    cursor: pointer;
+}
+.footer{
+    font-family: 'poppins',Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    text-align: center;
+    height: 20vh;
+    background-color: black;
+    color: #4c4c4c;
+}
+
+#giticon{
+    margin-top: 20px;
+    font-size: 25px;
+}
+#giticon:hover{
+    color: white;
     cursor: pointer;
 }
